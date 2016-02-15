@@ -30,22 +30,22 @@ $(function(){
   var waspPanZoom = window.waspPanZoom = svgPanZoom('#Layer_1', panzoomOptions);
 
 
-  // Custom buttons
+  /*
+    Custom buttons event handlers using jQuery
+    'click' will also work for touch events on mobile.
+  */
   $('#zoom-in').on('click', function(e){
     e.preventDefault()
-
     waspPanZoom.zoomIn()
   });
 
   $('#zoom-out').on('click', function(e){
     e.preventDefault()
-
     waspPanZoom.zoomOut()
   });
 
   $('#reset').on('click', function(e){
     e.preventDefault()
-
     waspPanZoom.resetZoom()
   });
 
