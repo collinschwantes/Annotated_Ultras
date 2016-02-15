@@ -18,7 +18,7 @@ $(function(){
     zoomEnabled: true,
     dblClickZoomEnabled: true,
     mouseWheelZoomEnabled: true,
-    controlIconsEnabled: true,
+    controlIconsEnabled: false, // set this to true to enable default buttons
     fit: true,
     center: true
   }
@@ -28,6 +28,26 @@ $(function(){
     pass in the panzoom options as the second argument
   */
   var waspPanZoom = window.waspPanZoom = svgPanZoom('#Layer_1', panzoomOptions);
+
+
+  // Custom buttons
+  $('#zoom-in').on('click', function(e){
+    e.preventDefault()
+
+    waspPanZoom.zoomIn()
+  });
+
+  $('#zoom-out').on('click', function(e){
+    e.preventDefault()
+
+    waspPanZoom.zoomOut()
+  });
+
+  $('#reset').on('click', function(e){
+    e.preventDefault()
+
+    waspPanZoom.resetZoom()
+  });
 
   /*
     looks for resize events on the window and resizes the 
