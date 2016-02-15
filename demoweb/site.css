@@ -1,9 +1,8 @@
 body {
     height: 100vh;
+    margin: 0;
 }
-/*body {
-    min-height: 100vh;
-}*/
+
 .zoom-in{
     position:absolute;
     top:30px;
