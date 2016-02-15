@@ -3,13 +3,6 @@ body {
     margin: 0;
 }
 
-.controls {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding: 10px;
-}
-
 .panzoom {
   text-align: center;
   background: green;
@@ -17,12 +10,14 @@ body {
   width: 100%;
 }
 
-#Layer_1{
+#Layer_1 {
   height:100%;
   width:100%;
 }
 
-/* Seeing red is bad */
-#panzoom-parent {
-  background: red;
+.controls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
 }
