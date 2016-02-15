@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+}
+/*body {
+    min-height: 100vh;
+}*/
+.zoom-in{
+    position:absolute;
+    top:30px;
+    left:30px;
+    width:30px;
+    height:30px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    opacity: .75;
+}
+
+.panzoom {
+  text-align: center;
+  background: green;
+  height: 100%;
+  width: 100%;
+}
+
+#Layer_1{
+  height:100%;
+  width:100%;
+}
+
+/* Seeing red is bad */
+#panzoom-parent {
+  background: red;
+}
