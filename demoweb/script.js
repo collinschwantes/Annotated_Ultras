@@ -27,7 +27,7 @@ $(function(){
     call svgPanZoom function on node #Layer_1
     pass in the panzoom options as the second argument
   */
-  var waspPanZoom = window.panzoom = svgPanZoom('#Layer_1', panzoomOptions);
+  var waspPanZoom = window.waspPanZoom = svgPanZoom('#Layer_1', panzoomOptions);
 
   /*
     looks for resize events on the window and resizes the 
