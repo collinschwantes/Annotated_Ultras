@@ -16,7 +16,7 @@ $(function(){
   */
   var panzoomOptions = {
     zoomEnabled: true,
-    dblClickZoomEnabled: true,
+    dblClickZoomEnabled: false,
     mouseWheelZoomEnabled: true,
     controlIconsEnabled: false, // set this to true to enable default buttons
     fit: true,
@@ -58,6 +58,13 @@ $(function(){
     waspPanZoom.fit();
     waspPanZoom.center();
   });
+  
+  /*change opacity with click on svg*/
+  
+  $('#wasp-head').click(function(){
+    $(this).toggleClass('opaque');
+  });
+  
 });
 
 

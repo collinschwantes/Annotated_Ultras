@@ -21,3 +21,11 @@ body {
   left: 0;
   padding: 10px;
 }
+
+.transparent {
+    opacity: 0.1;
+}
+
+.opaque {
+    opacity: 1;
+}
