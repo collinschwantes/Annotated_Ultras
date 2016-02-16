@@ -61,8 +61,11 @@ $(function(){
   
   /*change opacity with click on svg*/
   
-  $('#wasp-head').click(function(){
-    $(this).toggleClass('opaque');
+  
+  
+  $('#whead').on('click',function(e){
+    e.preventDefault();
+    $(this).toggleClass('opaque transparent');
   });
   
 });
