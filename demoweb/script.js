@@ -61,12 +61,18 @@ $(function(){
   
   /*change opacity with click on svg*/
   
+  var count = 0;
   
-  
-  $('#whead').on('click',function(e){
-    e.preventDefault();
-    $(this).toggleClass('opaque transparent');
-  });
+ $("#whead").click(function() {
+   count++;
+   if(count % 2 === 0) {
+   $(this).attr("class", "transparent"); 
+     
+   } else { $(this).attr("class", "opaque"); 
+   }
+   //return(count);
+});
+console.log(count);
   
 });
 
