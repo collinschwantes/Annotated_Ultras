@@ -62,7 +62,7 @@ $(function(){
   /*change opacity with click on svg*/
   
   var count = 0;
-  
+  /*
  $("#whead").click(function() {
    count++;
    if(count % 2 === 0) {
@@ -72,7 +72,35 @@ $(function(){
    }
    //return(count);
 });
-console.log(count);
+*/
+
+$(".bodypart").each(function() {
+  var $thisPart = $(this);
+  $thisPart.click(function() {
+   count++;
+   if(count % 2 === 0) {
+   $thisPart.attr("class", "bodypart transparent"); 
+     
+   } else { $thisPart.attr("class", "bodypart opaque"); 
+   }
+   //return(count);
+      });
+  });
+
+
+
+  
+  /* display part name or abbreviation */ 
+  $("")
+    
+    $("#whead").dblclick(function() {
+      $("p").toggle();
+});
+  
+
+  /*get information from HAO into side panel*/
+  
+  
   
 });
 
