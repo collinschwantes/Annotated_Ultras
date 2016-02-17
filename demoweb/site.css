@@ -21,3 +21,31 @@ body {
   left: 0;
   padding: 10px;
 }
+
+.bodypart {
+  opacity: 0.1;
+  cursor: pointer;
+}
+
+.bodypart.opaque {
+  opacity: 1;
+}
+
+.glossary {
+  background: white;
+  border: 1px solid black;
+  display: block;
+  min-height: 200px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+}
+
+.glossary-header {
+  text-align: center;
+}
+
+.glossary-definition.hidden {
+  display: none;
+}

@@ -16,7 +16,7 @@ $(function(){
   */
   var panzoomOptions = {
     zoomEnabled: true,
-    dblClickZoomEnabled: true,
+    dblClickZoomEnabled: false,
     mouseWheelZoomEnabled: true,
     controlIconsEnabled: false, // set this to true to enable default buttons
     fit: true,
@@ -27,8 +27,7 @@ $(function(){
     call svgPanZoom function on node #Layer_1
     pass in the panzoom options as the second argument
   */
-  var waspPanZoom = window.waspPanZoom = svgPanZoom('#Layer_1', panzoomOptions);
-
+  var waspPanZoom = svgPanZoom('#Layer_1', panzoomOptions);
 
   /*
     Custom buttons event handlers using jQuery
@@ -50,6 +49,31 @@ $(function(){
   });
 
   /*
+    Body part helper functions
+  */
+  var toggleOpacity = function($elem) {
+    $elem.toggleClass('opaque');
+  };
+
+  var toggleDefinition = function($elem) {
+    var partId = $elem.attr('id');
+    var selector = '.glossary-definition[data-definition="' + partId + '"]';
+
+    $(selector).toggleClass('hidden');
+  };
+
+  /*
+    Bodypart click handler
+  */
+  $('.bodypart').on('click', function(e){
+
+    var $thisPart = $(this);
+
+    toggleOpacity($thisPart);
+    toggleDefinition($thisPart);
+  });
+
+  /*
     looks for resize events on the window and resizes the 
     svg accordingly.
   */
@@ -58,6 +82,7 @@ $(function(){
     waspPanZoom.fit();
     waspPanZoom.center();
   });
-});
+  
 
+});
 
