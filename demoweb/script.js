@@ -27,8 +27,7 @@ $(function(){
     call svgPanZoom function on node #Layer_1
     pass in the panzoom options as the second argument
   */
-  var waspPanZoom = window.waspPanZoom = svgPanZoom('#Layer_1', panzoomOptions);
-
+  var waspPanZoom = svgPanZoom('#Layer_1', panzoomOptions);
 
   /*
     Custom buttons event handlers using jQuery
@@ -50,6 +49,33 @@ $(function(){
   });
 
   /*
+    Body part helper functions
+  */
+  var toggleOpacity = function($elem) {
+    $elem.toggleClass('opaque');
+  };
+
+  var toggleDefinition = function($elem) {
+    var partId = $elem.attr('id');
+    var selector = '.glossary-definition[data-definition="' + partId + '"]';
+
+    $(selector).toggleClass('hidden')
+  };
+
+  /*
+    Bodypart click handler
+  */
+  $('.bodypart').on('click', function(e){
+
+    var $thisPart = $(this);
+
+    toggleOpacity($thisPart);
+    toggleDefinition($thisPart);
+  });
+
+
+
+  /*
     looks for resize events on the window and resizes the 
     svg accordingly.
   */
@@ -59,49 +85,9 @@ $(function(){
     waspPanZoom.center();
   });
   
-  /*change opacity with click on svg*/
-  
-  var count = 0;
-  /*
- $("#whead").click(function() {
-   count++;
-   if(count % 2 === 0) {
-   $(this).attr("class", "transparent"); 
-     
-   } else { $(this).attr("class", "opaque"); 
-   }
-   //return(count);
+
+
+
+
 });
-*/
-
-$(".bodypart").each(function() {
-  var $thisPart = $(this);
-  $thisPart.click(function() {
-   count++;
-   if(count % 2 === 0) {
-   $thisPart.attr("class", "bodypart transparent"); 
-     
-   } else { $thisPart.attr("class", "bodypart opaque"); 
-   }
-   //return(count);
-      });
-  });
-
-
-
-  
-  /* display part name or abbreviation */ 
-  $("")
-    
-    $("#whead").dblclick(function() {
-      $("p").toggle();
-});
-  
-
-  /*get information from HAO into side panel*/
-  
-  
-  
-});
-
 
