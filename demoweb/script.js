@@ -59,7 +59,7 @@ $(function(){
     var partId = $elem.attr('id');
     var selector = '.glossary-definition[data-definition="' + partId + '"]';
 
-    $(selector).toggleClass('hidden')
+    $(selector).toggleClass('hidden');
   };
 
   /*
@@ -73,8 +73,6 @@ $(function(){
     toggleDefinition($thisPart);
   });
 
-
-
   /*
     looks for resize events on the window and resizes the 
     svg accordingly.
@@ -85,9 +83,6 @@ $(function(){
     waspPanZoom.center();
   });
   
-
-
-
 
 });
 
