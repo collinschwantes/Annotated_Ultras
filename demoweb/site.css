@@ -34,7 +34,7 @@ body {
 .glossary {
   background: white;
   border: 1px solid black;
-  display: block;
+  display: none;
   min-height: 200px;
   position: absolute;
   right: 0;
@@ -46,6 +46,14 @@ body {
   text-align: center;
 }
 
+#csv-file {
+  position: absolute;
+  top: 0;
+  left: 20;
+}
+
 .glossary-definition.hidden {
   display: none;
 }
+
+
