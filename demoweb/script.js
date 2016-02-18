@@ -55,6 +55,19 @@ $(function(){
   /*
   generate glossary defintions from HAO.csv file
   */
+  /*var generateDefs = function($elem) {
+    var partId = $elem.attr('id');
+    var selector = '.glossary-definition[data-definition="' + partId + '"]';
+    $(selector).text
+  };*/
+  
+  
+  $.each(obj_test.Term, function(key, value){
+    var an_def = obj_test.Concept[key];
+    $("ul").append('<li class="glossary-definition hidden" data-definition='+value+'>'+an_def+'</li>');
+    console.log(key); //to see the index values :)
+    console.log(value);
+  });
   
   /*
     Body part helper functions
@@ -68,7 +81,7 @@ $(function(){
     var selector = '.glossary-definition[data-definition="' + partId + '"]';
 
     $(selector).toggleClass('hidden');
-  };
+    };
 
   /*
     Bodypart click handler
