@@ -46,6 +46,12 @@ body {
   text-align: center;
 }
 
+#csv-file {
+  position: absolute;
+  top: 0;
+  left: 20;
+}
+
 .glossary-definition.hidden {
   display: none;
 }
