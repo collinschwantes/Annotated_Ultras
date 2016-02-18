@@ -34,7 +34,7 @@ body {
 .glossary {
   background: white;
   border: 1px solid black;
-  display: block;
+  display: none;
   min-height: 200px;
   position: absolute;
   right: 0;

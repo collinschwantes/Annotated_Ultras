@@ -53,6 +53,61 @@ $(function(){
   });
 
   /*
+    Glossary contstructor
+  */
+
+  var Glossary = function Glossary() {
+    this.definitionCount = 0;
+    this.prevCount = 0;
+    this.$root = $('.glossary');
+    this.$list = $('.glossary-list')
+  }
+
+  /*
+    Glossary prototype methods
+  */
+
+  Glossary.prototype = {
+    isFull: function() {
+      return (this.definitionCount > 0);
+    },
+    increaseCount: function() {
+      this.prevCount = this.definitionCount;
+      this.definitionCount ++;
+    },
+    decreaseCount: function() {
+      this.prevCount = this.definitionCount;
+      this.definitionCount --;
+    },
+    toggleDefinition: function($elem) {
+      var partId = $elem.attr('id');
+      var selector = '.glossary-definition[data-definition="' + partId + '"]';
+      var $selector = $(selector);
+      var willIncrease = $selector.hasClass('hidden');
+      if (willIncrease) {
+        this.increaseCount();
+        $(selector).removeClass('hidden');
+      } else {
+        this.decreaseCount();
+        $(selector).addClass('hidden');
+      } 
+    },
+    update: function() {
+      if (this.isFull()) {
+        this.$root.show()
+      } else {
+        this.$root.hide();
+      }
+    }
+  }
+
+  /*
+    initialize Glossary, make it a global object
+  */
+
+  var glossary = window.glossary = new Glossary();
+
+  /*
   generate glossary defintions from HAO.csv file
   */
   
@@ -70,13 +125,6 @@ $(function(){
     $elem.toggleClass('opaque');
   };
 
-  var toggleDefinition = function($elem) {
-    var partId = $elem.attr('id');
-    var selector = '.glossary-definition[data-definition="' + partId + '"]';
-
-    $(selector).toggleClass('hidden');
-    };
-
   /*
     Bodypart click handler
   */
@@ -85,7 +133,10 @@ $(function(){
     var $thisPart = $(this);
 
     toggleOpacity($thisPart);
-    toggleDefinition($thisPart);
+
+    glossary.toggleDefinition($thisPart);
+    glossary.update();
+
   });
 
   /*
