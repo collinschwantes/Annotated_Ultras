@@ -1,0 +1,63 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.panzoom {
+  text-align: center;
+  background: #798385;
+  background: -webkit-linear-gradient(-90deg, #798385, #8D989C); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, , ##798385,#8D989C); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, #798385, #8D989C); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, #798385, #8D989C); /* Standard syntax */
+  height: 100%;
+  width: 100%;
+}
+
+#Layer_1 {
+  height:100%;
+  width:100%;
+}
+
+.controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.bodypart {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.bodypart.opaque {
+  opacity: .4;
+}
+
+.glossary {
+  background: white;
+  border: 1px solid black;
+  display: none;
+  min-height: 200px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+}
+
+.glossary-header {
+  text-align: center;
+}
+
+#csv-file {
+  position: absolute;
+  top: 0;
+  left: 20;
+}
+
+.glossary-definition.hidden {
+  display: none;
+}
+
+
