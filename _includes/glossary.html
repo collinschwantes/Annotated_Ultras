@@ -1,0 +1,8 @@
+<div class="glossary">
+  <h3 class="glossary-header">Glossary</h3>
+  <ul class="glossary-list">
+    {% for term in site.data.terms %}
+    <li class="glossary-definition hidden" data-definition='{{ term.title }}'><a href='{{ term.URI }} '>{{term.title}}</a>: {{ term.definition}} </li>
+    {% endfor %}
+  </ul>
+</div>
