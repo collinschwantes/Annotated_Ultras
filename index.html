@@ -8,8 +8,15 @@ title: Natural History museum
   {% include wasp_svg.html %}
 </div>
 
+<div class="search-bar">
+<input id="tags" type="text" class="form-control"/>
+<button id="tags-search">Search</button>
+</div>
+
 {% include controls.html %}
 
 {% include glossary.html %}
 
-<script src= "script.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/glossary.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/main.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/autocomplete.js"></script>
