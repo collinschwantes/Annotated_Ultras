@@ -21,9 +21,9 @@ body {
 
 .controls {
   position: absolute;
-  top: 0;
-  left: 0;
-  padding: 10px;
+  top: 10;
+  left: 10;
+
 }
 
 .bodypart {
@@ -32,18 +32,22 @@ body {
 }
 
 .bodypart.opaque {
-  opacity: .4;
+  opacity: .6;
 }
 
 .glossary {
   background: white;
-  border: 1px solid black;
+  padding-right: 20px;
+  opacity: .7;
+  border: 0px dotted black;
   display: none;
   min-height: 200px;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 10;
+  top: 10;
   width: 200px;
+  border-radius: 7px;
+  font-family: "Verdana", Geneva, sans-serif;
 }
 
 .glossary-header {
@@ -58,4 +62,9 @@ body {
 
 .glossary-definition.hidden {
   display: none;
+}
+
+.glossary-list {
+  opacity: 1;
+  font-family: "Verdana", Geneva, serif;
 }
