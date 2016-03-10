@@ -1,6 +1,34 @@
-.search-bar {
+
+.search-bar{
+	border-radius: 15px;
+	border: 0px;
 	position: absolute;
-	bottom: 100px;
-	left: 15px;
-	border-radius: 3px;
+	bottom: calc(5%);
+	left: calc(5%);
+}
+
+.form-control {
+  padding: 5px;
+  padding-right: 30px;
+  border-radius: inherit;
+  border: inherit;
+  position: inherit;
+  bottom: inherit;
+  left: inherit;
+  z-index: 2;
+
+}
+
+.search-button {
+  padding-left: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: #ffffff;
+  position: inherit;
+  border-radius: inherit;
+  border: inherit;
+  position: inherit;
+  bottom: inherit;
+  z-index: 1;
+  left: calc(5% + 140px);
 }
