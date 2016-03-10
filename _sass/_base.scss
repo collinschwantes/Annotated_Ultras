@@ -70,3 +70,32 @@ body {
 
   opacity: 1;
 }
+
+.search-bar {
+  border-radius: 15px;
+}
+
+.form-control {
+  border-radius: 15px;
+  padding-right: 30px;
+  padding: 5px;
+  border: 0px;
+  position: absolute;
+  bottom:10;
+  z-index: 2;
+
+}
+
+.search-button {
+  padding-left: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 15px;
+  border: 0px;
+  background: #ffffff;
+  position: absolute;
+  z-index: 1;
+  left: 115px;
+  bottom: 10px;
+}
+
