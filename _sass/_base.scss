@@ -21,9 +21,35 @@ body {
 
 .controls {
   position: absolute;
-  top: 0;
-  left: 0;
-  padding: 10px;
+  top: 10px;
+  left: calc(2%);
+}
+
+#zoom-in {
+  padding: 7px;
+  background: #ffffff;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px; 
+  border-bottom-width: 1px; 
+}
+
+#zoom-out {
+  padding: 7px;
+  border: 0px;
+  background: #ffffff;
+  border-bottom-left-radius: 10px; 
+  border-bottom-right-radius: 10px; 
+}
+
+#reset {
+  padding: 7px;
+  border: 0px;
+  border-radius: 10px;
+  background: #ffffff;
+  margin-top: 5px;
 }
 
 .bodypart {
@@ -32,18 +58,25 @@ body {
 }
 
 .bodypart.opaque {
-  opacity: .4;
+  opacity: .6;
 }
 
 .glossary {
   background: white;
-  border: 1px solid black;
+  padding-right: 20px;
+  padding-left: -15px;
+  opacity: .7;
+  border: 0px dotted black;
   display: none;
   min-height: 200px;
+  max-height: 95%;
   position: absolute;
-  right: 0;
-  top: 0;
-  width: 200px;
+  right: 10;
+  top: 10;
+  width: 220px;
+  border-radius: 7px;
+  overflow: auto;
+  font-family: "Verdana", Geneva, sans-serif;
 }
 
 .glossary-header {
@@ -59,3 +92,9 @@ body {
 .glossary-definition.hidden {
   display: none;
 }
+
+.glossary-list {
+  overflow: auto;
+  opacity: 1;
+}
+

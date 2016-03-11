@@ -1,5 +1,31 @@
-.search-bar {
+
+.search-bar{
+	border: 0px;
 	position: absolute;
-	top: 100px;
-	left: 15px;
+	bottom: calc(5%);
+	left: calc(2%);
+}
+
+.form-control {
+  padding: 5px;
+  padding-right: 30px;
+  border-radius: 15px;
+  border: inherit;
+  position: inherit;
+  bottom: inherit;
+  left: inherit;
+  width: 165px;
+  z-index: 1;
+}
+
+.search-button {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: rgba(0, 0, 0, 0.0);
+  position: inherit;
+  border: inherit;
+  position: inherit;
+  bottom: inherit;
+  z-index: 2;
+  left: calc( 2% + 140px);
 }
