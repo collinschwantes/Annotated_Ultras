@@ -14,7 +14,6 @@
   /*
     Glossary prototype methods
   */
-
   exports.Glossary.prototype = {
     isFull: function() {
       return (this.definitionCount > 0);
@@ -28,7 +27,10 @@
       this.definitionCount --;
     },
     showDefinition: function($elem, id) {
+      log($elem)
+      log(id)
       var partId = $elem ? $elem.attr('id') : id;
+      log(partId)
 
       var selector = '.glossary-definition[data-definition="' + partId + '"]';
       var $selector = $(selector);

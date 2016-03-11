@@ -8,7 +8,7 @@ $(function() {
 
   window.ultras = [
 
-    {% for term in site.data.terms %}
+    {% for term in site.data.hao_terms %}
       '{{ term.title }}',
     {% endfor %}
   ];
@@ -16,6 +16,8 @@ $(function() {
   var availableTags = window.ultras;
 
   var $tags = $( "#tags" );
+
+  console.log(id)
 
   function updateGlossaryAndSVG (term) {
     // glossary
