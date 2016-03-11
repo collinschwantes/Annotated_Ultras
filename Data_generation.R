@@ -1,5 +1,10 @@
-setwd("/Users/featherlite569/Documents/NMNH/wasp_app/demoweb")
+setwd("/Users/featherlite569/Documents/NMNH/wasp_app/")
+library(XML)
+library(jsonlite)
 hao_terms <- read.csv(file = "./HAO_terms.csv")
 hao_terms <- hao_terms[!duplicated(hao_terms[,1]),]
-hao_terms[,1] <- capitalize(hao_terms[,1])
-write(toJSON(hao_terms),file = "hao_terms.json")
+hao_terms[,1] <- capitalize(hao_terms[,1],1)
+hao_terms$ID <- substr(hao_terms$URI,32,42)
+str(hao_terms)
+toJSON(hao_terms,pretty = T)
+write(toJSON(hao_terms,pretty = T),file = "hao_terms.json")
