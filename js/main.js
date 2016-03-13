@@ -60,7 +60,7 @@ $(function(){
   /*
     initialize Glossary, make it a global object
   */
-
+// making a local version of Glossary called glossary
   exports.glossary = new exports.Glossary();
 
   /*

@@ -5,6 +5,6 @@ hao_terms <- read.csv(file = "./HAO_terms.csv")
 hao_terms <- hao_terms[!duplicated(hao_terms[,1]),]
 hao_terms[,1] <- capitalize(hao_terms[,1],1)
 hao_terms$ID <- substr(hao_terms$URI,32,42)
+names(hao_terms) <- c("title","definition","URI","Preferred.Term","ID")
 str(hao_terms)
-toJSON(hao_terms,pretty = T)
 write(toJSON(hao_terms,pretty = T),file = "hao_terms.json")
