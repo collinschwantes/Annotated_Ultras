@@ -3,7 +3,8 @@
   /*
     Glossary contstructor
   */
-
+// creates and obj that is also a function that can be called
+// when called 
   exports.Glossary = function Glossary() {
     this.definitionCount = 0;
     this.prevCount = 0;
@@ -12,9 +13,8 @@
   }
 
   /*
-    Glossary prototype methods
+    Glossary prototype methods - functions specific to func obj
   */
-
   exports.Glossary.prototype = {
     isFull: function() {
       return (this.definitionCount > 0);
@@ -29,6 +29,7 @@
     },
     showDefinition: function($elem, id) {
       var partId = $elem ? $elem.attr('id') : id;
+      
 
       var selector = '.glossary-definition[data-definition="' + partId + '"]';
       var $selector = $(selector);
@@ -40,7 +41,7 @@
     },
     toggleDefinition: function($elem, id) {
       var partId = $elem ? $elem.attr('id') : id;
-
+      console.log(partId)
       var selector = '.glossary-definition[data-definition="' + partId + '"]';
       var $selector = $(selector);
       var willIncrease = $selector.hasClass('hidden');

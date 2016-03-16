@@ -1,0 +1,758 @@
+[
+  {
+    "title": "Antenna",
+    "definition": "The appendage that is composed of ringlike sclerites and the anatomical structures encircled by these sclerites and that is articulated with the cranium.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000101",
+    "Preferred.Term": "antenna",
+    "ID": "HAO_0000101"
+  },
+  {
+    "title": "Antennal scrobe",
+    "definition": "The scrobe that is located dorsally of the antennal foramen and is for the reception of the antenna.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001432",
+    "Preferred.Term": "antennal scrobe",
+    "ID": "HAO_0001432"
+  },
+  {
+    "title": "Antennomere",
+    "definition": "The anatomical structure that is delimited by the proximal and distal margins of the antennal sclerite.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000107",
+    "Preferred.Term": "antennomere",
+    "ID": "HAO_0000107"
+  },
+  {
+    "title": "Anterior propodeal projection",
+    "definition": "The projection that is located submedially on the anterior margin of the propodeum.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001968",
+    "Preferred.Term": "anterior propodeal projection",
+    "ID": "HAO_0001968"
+  },
+  {
+    "title": "Basal vein",
+    "definition": "The wing vein that is basally located on the fore wing and connects or nearly connects the submarginal vein and the medial plus cubital veins.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000170",
+    "Preferred.Term": "basal vein",
+    "ID": "HAO_0000170"
+  },
+  {
+    "title": "Clava",
+    "definition": "The anatomical cluster that is composed of apical flagellomeres bearing multiporous plates in female organism.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000203",
+    "Preferred.Term": "clava",
+    "ID": "HAO_0000203"
+  },
+  {
+    "title": "Clavomere",
+    "definition": "The flagellomere that is located in the clava.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001186",
+    "Preferred.Term": "clavomere",
+    "ID": "HAO_0001186"
+  },
+  {
+    "title": "Clypeus",
+    "definition": "The area that corresponds to the site of origin of the clypeo-epipharyngeal muscle.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000212",
+    "Preferred.Term": "clypeus",
+    "ID": "HAO_0000212"
+  },
+  {
+    "title": "Condyle",
+    "definition": "The articular surface that is convex and is inserted into the fossa of an adjacent sclerite.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000220",
+    "Preferred.Term": "condyle",
+    "ID": "HAO_0000220"
+  },
+  {
+    "title": "Episternal foveae",
+    "definition": "The row of impressions that is located on the anteroventral edge of the mesopleuron and is correspond to the site of origin of the mesopleuro-mesobasalar muscle.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001509",
+    "Preferred.Term": "episternal foveae",
+    "ID": "HAO_0001509"
+  },
+  {
+    "title": "Facial striae",
+    "definition": "The anatomical cluster anterior to the malar sulcus that is composed of carinae radiating from the pleurostomal condyle.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0002376",
+    "Preferred.Term": "facial striae",
+    "ID": "HAO_0002376"
+  },
+  {
+    "title": "Felt field",
+    "definition": "The setiferous patch that is located sublaterally on an abdominal sternum.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000322",
+    "Preferred.Term": "felt field",
+    "ID": "HAO_0000322"
+  },
+  {
+    "title": "Femoral depression",
+    "definition": "The scrobe that is located on the mesopleuron into which the mesofemur fits when pressed against the mesosoma.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000326",
+    "Preferred.Term": "mesofemoral depression",
+    "ID": "HAO_0000326"
+  },
+  {
+    "title": "Foramen",
+    "definition": "The anatomical space that is surrounded by sclerites and allows for the passage of haemolymph, nerves and tracheae.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000345",
+    "Preferred.Term": "foramen",
+    "ID": "HAO_0000345"
+  },
+  {
+    "title": "Forewing",
+    "definition": "The wing that is located on the mesothorax.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000351",
+    "Preferred.Term": "fore wing",
+    "ID": "HAO_0000351"
+  },
+  {
+    "title": "Frons",
+    "definition": "The area that is between the epistomal line and the anterior ocellus and limited laterally by the inner margin of compound eye.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001523",
+    "Preferred.Term": "frons",
+    "ID": "HAO_0001523"
+  },
+  {
+    "title": "Frontal depression",
+    "definition": "The anatomical cluster that is composed of antennal scrobes.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000911",
+    "Preferred.Term": "frontal depression",
+    "ID": "HAO_0000911"
+  },
+  {
+    "title": "Gena",
+    "definition": "The area that is delimited by the intersection of the interorbital plane, the margin of the compound eye, the margin of the oral foramen, the occipital carina and the malar sulcus.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000371",
+    "Preferred.Term": "gena",
+    "ID": "HAO_0000371"
+  },
+  {
+    "title": "Head",
+    "definition": "The tagma that is located anterior to the thorax.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000397",
+    "Preferred.Term": "head",
+    "ID": "HAO_0000397"
+  },
+  {
+    "title": "Hindwing",
+    "definition": "The wing that is located on the metathorax.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000400",
+    "Preferred.Term": "hind wing",
+    "ID": "HAO_0000400"
+  },
+  {
+    "title": "Horn of T1",
+    "definition": "The area that is located anteriorly on mediotergum 1, is raised and contains the proximal part of the retracted ovipositor",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0002026",
+    "Preferred.Term": "horn of T1",
+    "ID": "HAO_0002026"
+  },
+  {
+    "title": "Interantennal process",
+    "definition": "The area that is elevated and extends between the toruli.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000422",
+    "Preferred.Term": "interantennal process",
+    "ID": "HAO_0000422"
+  },
+  {
+    "title": "Lateral propodeal area",
+    "definition": "The area that is located laterally on the propodeum, is delimited posteromedially by the lateral propodeal carina and is delimited laterally by the plica.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000485",
+    "Preferred.Term": "lateral propodeal area",
+    "ID": "HAO_0000485"
+  },
+  {
+    "title": "Malar striae",
+    "definition": "The anatomical cluster posterior to the malar sulcus that is composed of carinae radiating from the pleurostomal condyle.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0002373",
+    "Preferred.Term": "malar striae",
+    "ID": "HAO_0002373"
+  },
+  {
+    "title": "Malar sulcus",
+    "definition": "The sulcus that extends between the ventral margin of the compound eye and the base of the mandible.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000504",
+    "Preferred.Term": "malar sulcus",
+    "ID": "HAO_0000504"
+  },
+  {
+    "title": "Mandible",
+    "definition": "The appendage that is encircled by one sclerite that is connected to the cranium proximolaterally and to the maxillo-labial complex proximomedially via conjunctivae and articulates with the cranium via the anterior and posterior cranio-mandibular articulations.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000506",
+    "Preferred.Term": "mandible",
+    "ID": "HAO_0000506"
+  },
+  {
+    "title": "Margin",
+    "definition": "The line that delimits the periphery of an area.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000510",
+    "Preferred.Term": "margin",
+    "ID": "HAO_0000510"
+  },
+  {
+    "title": "Mesepimeral sulcus",
+    "definition": "The sulcus that extends along the posterior margin of the mesopectus, delimits the mesepimeral area and corresponds to the mesepimeral ridge.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000538",
+    "Preferred.Term": "mesepimeral sulcus",
+    "ID": "HAO_0000538"
+  },
+  {
+    "title": "Mesonotum",
+    "definition": "The area that is limited anteriorly by the pronotum, laterally by the basalare, axillary sclerites, subalare and the mesopectus and posterolaterally by the mesopostnotum and the metanotum.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000556",
+    "Preferred.Term": "mesonotum",
+    "ID": "HAO_0000556"
+  },
+  {
+    "title": "Mesopleural carina",
+    "definition": "The carina that crosses the mesopleuron and limits ventrally the femoral depression.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000559",
+    "Preferred.Term": "mesopleural carina",
+    "ID": "HAO_0000559"
+  },
+  {
+    "title": "Mesopleural pit",
+    "definition": "The pleural pit that is located on the mesopleuron.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000561",
+    "Preferred.Term": "mesopleural pit",
+    "ID": "HAO_0000561"
+  },
+  {
+    "title": "Mesopleuron",
+    "definition": "The pleuron that is located in the mesothorax.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001354",
+    "Preferred.Term": "mesopleuron",
+    "ID": "HAO_0001354"
+  },
+  {
+    "title": "Mesoscutal suprahumeral sulcus",
+    "definition": "The sulcus that extends along the anterior margin of the mesoscutum between the anterior-most point of the preaxilla and the anteroadmedian line and corresponds to the vertical lobe of the mesoscutum.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000570",
+    "Preferred.Term": "mesoscutal suprahumeral sulcus",
+    "ID": "HAO_0000570"
+  },
+  {
+    "title": "Mesoscutellum",
+    "definition": "The scutellum that is located on the mesonotum.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000574",
+    "Preferred.Term": "mesoscutellum",
+    "ID": "HAO_0000574"
+  },
+  {
+    "title": "Mesoscutum",
+    "definition": "The scutum that is located on the mesonotum.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000575",
+    "Preferred.Term": "mesoscutum",
+    "ID": "HAO_0000575"
+  },
+  {
+    "title": "Mesosoma",
+    "definition": "The anatomical cluster that is composed of the prothorax, mesothorax and the metapectal-propodeal complex.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000576",
+    "Preferred.Term": "mesosoma",
+    "ID": "HAO_0000576"
+  },
+  {
+    "title": "Metanotal trough",
+    "definition": "The area that is concave, and is delimited medially by the metascutellum, laterally by the supraalar area and posteriorly by the metascutellar arm.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000600",
+    "Preferred.Term": "metanotal trough",
+    "ID": "HAO_0000600"
+  },
+  {
+    "title": "Metapleural sulcus",
+    "definition": "The line that corresponds with the metapleural ridge.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000614",
+    "Preferred.Term": "metapleural sulcus",
+    "ID": "HAO_0000614"
+  },
+  {
+    "title": "Metapleural triangle",
+    "definition": "The area that is located anteroventrally on the metapectus, is delimited ventrally by the ventral carina of the metapleuron and is triangular.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000615",
+    "Preferred.Term": "metapleural triangle",
+    "ID": "HAO_0000615"
+  },
+  {
+    "title": "Metapleuron",
+    "definition": "The area of the metapectal-propodeal complex that is limited ventrally by the ventral carina of the metapleuron and dorsally by the metapleural carina.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001869",
+    "Preferred.Term": "metapleuron",
+    "ID": "HAO_0001869"
+  },
+  {
+    "title": "Metascutellum",
+    "definition": "The area that is located posteromedially on the metanotum, is delimited laterally by the metanotal trough and corresponds to the reservoir of the dorsal vessel.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000625",
+    "Preferred.Term": "metascutellum",
+    "ID": "HAO_0000625"
+  },
+  {
+    "title": "Metasoma",
+    "definition": "The tagma that is connected anteriorly to the metapectal-propodeal complex at the propodeal foramen and consists of abdominal segments.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000626",
+    "Preferred.Term": "metasoma",
+    "ID": "HAO_0000626"
+  },
+  {
+    "title": "Metasomal depression",
+    "definition": "The acetabulum that is concave, surrounds the nucha and accommodates the base of the metasoma.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000627",
+    "Preferred.Term": "metasomal depression",
+    "ID": "HAO_0000627"
+  },
+  {
+    "title": "Notaulus",
+    "definition": "The line that extends submedially along the mesoscutum and corresponds to the median border of the site of origin of the first mesopleuro-mesonotal muscle.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000647",
+    "Preferred.Term": "notaulus",
+    "ID": "HAO_0000647"
+  },
+  {
+    "title": "Occipital carina",
+    "definition": "The carina that surrounds dorsolaterally the occiput.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000653",
+    "Preferred.Term": "occipital carina",
+    "ID": "HAO_0000653"
+  },
+  {
+    "title": "Ovipositor",
+    "definition": "The anatomical cluster that is composed of the first valvulae, second valvulae, third valvulae, first valvifers, second valvifers and female T9.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000679",
+    "Preferred.Term": "ovipositor",
+    "ID": "HAO_0000679"
+  },
+  {
+    "title": "Pleurostomal condyle",
+    "definition": "The condyle that is located on the anterior (dorsal) margin of the pleurostoma and inserts into the mandibular acetabulum.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000731",
+    "Preferred.Term": "pleurostomal condyle",
+    "ID": "HAO_0000731"
+  },
+  {
+    "title": "Postacetabular sulcus",
+    "definition": "The sulcus that extends posteriorly along the epicnemial carina.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000741",
+    "Preferred.Term": "postacetabular sulcus",
+    "ID": "HAO_0000741"
+  },
+  {
+    "title": "Posterior mesepimeral area",
+    "definition": "The area that extends along the posterior margin of the mesopleuron and is delimited anteriorly by the mesepimeral sulcus.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000751",
+    "Preferred.Term": "posterior mesepimeral area",
+    "ID": "HAO_0000751"
+  },
+  {
+    "title": "Posterior propodeal projection",
+    "definition": "The propodeal spine that is located posteromedially of the first abdominal spiracle.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000763",
+    "Preferred.Term": "posterior propodeal projection",
+    "ID": "HAO_0000763"
+  },
+  {
+    "title": "Postgena",
+    "definition": "The area that is located on the occiput ventrally of the occipital foramen.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000776",
+    "Preferred.Term": "postgena",
+    "ID": "HAO_0000776"
+  },
+  {
+    "title": "Postmarginal vein",
+    "definition": "The abscissa that is marginal and located distal to the marginal vein.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000783",
+    "Preferred.Term": "postmarginal vein",
+    "ID": "HAO_0000783"
+  },
+  {
+    "title": "Prespecular sulcus",
+    "definition": "The sulcus that delimits anteriorly the speculum and corresponds to the anterior margin of the speculum.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000816",
+    "Preferred.Term": "prespecular sulcus",
+    "ID": "HAO_0000816"
+  },
+  {
+    "title": "Pronotal cervical sulcus",
+    "definition": "The sulcus that extends along the anterior margin of the pronotum and delimits the anterior rim of pronotum.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000831",
+    "Preferred.Term": "pronotal cervical sulcus",
+    "ID": "HAO_0000831"
+  },
+  {
+    "title": "Pronotal suprahumeral sulcus",
+    "definition": "The sulcus that extends along the dorsal margin of the pronotum and delimits the dorsal pronotal area.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000842",
+    "Preferred.Term": "pronotal suprahumeral sulcus",
+    "ID": "HAO_0000842"
+  },
+  {
+    "title": "Pronotum",
+    "definition": "The notum that is located in the prothorax.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000853",
+    "Preferred.Term": "pronotum",
+    "ID": "HAO_0000853"
+  },
+  {
+    "title": "Sensillum",
+    "definition": "A sense organ embedded in the integument and consisting of one or a cluster of sensory neurons and associated sensory structures, support cells and glial cells forming a single organized unit with a largely bona fide boundary.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000933",
+    "Preferred.Term": "sensillum",
+    "ID": "HAO_0000933"
+  },
+  {
+    "title": "Skaphion",
+    "definition": "The area that is anteriorly on the mesonotum and delimited posteriorly by the skaphion carina.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000940",
+    "Preferred.Term": "skaphion",
+    "ID": "HAO_0000940"
+  },
+  {
+    "title": "Spine",
+    "definition": "The process that lacks non-sclerotised ring at the base.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000949",
+    "Preferred.Term": "spine",
+    "ID": "HAO_0000949"
+  },
+  {
+    "title": "Submarginal vein",
+    "definition": "Basal-most portion of the forewing vein complex that occurs behind the costal cell; measured from the constriction that delimits the humeral plate to the point at which the vein touches the leading edge of the wing apically.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000972",
+    "Preferred.Term": "submarginal vein",
+    "ID": "HAO_0000972"
+  },
+  {
+    "title": "Submedian carina",
+    "definition": "The carina that arises from the anterior mandibular articulation that is located medially of the orbital carina and laterally of the frontal carina.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000973",
+    "Preferred.Term": "submedian carina",
+    "ID": "HAO_0000973"
+  },
+  {
+    "title": "Sulcus",
+    "definition": "The groove that corresponds to a ridge.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000978",
+    "Preferred.Term": "sulcus",
+    "ID": "HAO_0000978"
+  },
+  {
+    "title": "Tergite",
+    "definition": "The sclerite that is located on the tergum.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001005",
+    "Preferred.Term": "tergite",
+    "ID": "HAO_0001005"
+  },
+  {
+    "title": "Transverse pronotal carina",
+    "definition": "The carina that delimits posteriorly the pronotal neck.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001031",
+    "Preferred.Term": "transverse pronotal carina",
+    "ID": "HAO_0001031"
+  },
+  {
+    "title": "Acetabular carina",
+    "definition": "The carina that delimits posteriorly the epicnemium.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000292",
+    "Preferred.Term": "epicnemial carina",
+    "ID": "HAO_0000292"
+  },
+  {
+    "title": "Antecostal sulcus",
+    "definition": "The sulcus that corresponds to the antecosta.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000099",
+    "Preferred.Term": "antecostal sulcus",
+    "ID": "HAO_0000099"
+  },
+  {
+    "title": "Antennal foramen",
+    "definition": "The foramen that is located on the head in which the radicle is positioned.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001022",
+    "Preferred.Term": "antennal foramen",
+    "ID": "HAO_0001022"
+  },
+  {
+    "title": "Axillar crescent",
+    "definition": "The anatomical cluster composed of the transaxillar carina, axillar carina, and axillular carina.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0002306",
+    "Preferred.Term": "axillar crescent",
+    "ID": "HAO_0002306"
+  },
+  {
+    "title": "Axillular carina",
+    "definition": "The axillular line that is a carina.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000161",
+    "Preferred.Term": "axillular carina",
+    "ID": "HAO_0000161"
+  },
+  {
+    "title": "Eye",
+    "definition": "The compound organ that is composed of ommatidia.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000217",
+    "Preferred.Term": "eye",
+    "ID": "HAO_0000217"
+  },
+  {
+    "title": "Flagellum",
+    "definition": "The anatomical cluster composed of flagellomeres.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000343",
+    "Preferred.Term": "flagellum",
+    "ID": "HAO_0000343"
+  },
+  {
+    "title": "Genal carina",
+    "definition": "The carina that extends on the gena from the lateral margin of the oral foramen.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001755",
+    "Preferred.Term": "genal carina",
+    "ID": "HAO_0001755"
+  },
+  {
+    "title": "Hyperoccipital carina",
+    "definition": "The carina that extends on the vertex between the outer orbits.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000406",
+    "Preferred.Term": "hyperoccipital carina",
+    "ID": "HAO_0000406"
+  },
+  {
+    "title": "Inner orbit",
+    "definition": "The line that extends along the border between the eye and face.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000419",
+    "Preferred.Term": "inner margin of compound eye",
+    "ID": "HAO_0000419"
+  },
+  {
+    "title": "Lateral ocellus",
+    "definition": "The ocellus that is paired.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000481",
+    "Preferred.Term": "lateral ocellus",
+    "ID": "HAO_0000481"
+  },
+  {
+    "title": "Laterotergite",
+    "definition": "The area that is located laterally on the tergum and is delimited by a longitudinal edge.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001861",
+    "Preferred.Term": "laterotergite",
+    "ID": "HAO_0001861"
+  },
+  {
+    "title": "Median mesoscutal sulcus",
+    "definition": "The sulcus that is located in the anteroposterior midline of the mesoscutum and corresponds with the median mesoscutal ridge.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000523",
+    "Preferred.Term": "median mesoscutal sulcus",
+    "ID": "HAO_0000523"
+  },
+  {
+    "title": "Mediotergite",
+    "definition": "The area that is located medially on the tergum and is separated laterally by a line from the laterotergite.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001860",
+    "Preferred.Term": "mediotergite",
+    "ID": "HAO_0001860"
+  },
+  {
+    "title": "Mesepisternum",
+    "definition": "The area that is located anteriorly of the mesepimeral sulcus.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001872",
+    "Preferred.Term": "mesepisternum",
+    "ID": "HAO_0001872"
+  },
+  {
+    "title": "Mesocoxa",
+    "definition": "The coxa that is located on the mid leg.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000635",
+    "Preferred.Term": "mesocoxa",
+    "ID": "HAO_0000635"
+  },
+  {
+    "title": "Mesopleural epicoxal sulcus",
+    "definition": "The epicoxal sulcus that is located on the mesopleuron.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000560",
+    "Preferred.Term": "mesopleural epicoxal sulcus",
+    "ID": "HAO_0000560"
+  },
+  {
+    "title": "Mesoscutal humeral sulcus",
+    "definition": "The sulcus that extends medially along the parascutal carina and corresponds to a shallow ridge.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000569",
+    "Preferred.Term": "mesoscutal humeral sulcus",
+    "ID": "HAO_0000569"
+  },
+  {
+    "title": "Metacoxa",
+    "definition": "The coxa that is located on the hind leg.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000587",
+    "Preferred.Term": "metacoxa",
+    "ID": "HAO_0000587"
+  },
+  {
+    "title": "Metanotum",
+    "definition": "The alinotum that is located in the metathorax, is connected with the mesoscutellum and the mesopostnotum anteriorly and the acrotergite of the first abdominal tergum posteromedially.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000603",
+    "Preferred.Term": "metanotum",
+    "ID": "HAO_0000603"
+  },
+  {
+    "title": "Metapleural carina",
+    "definition": "The carina that delimits the metapleuron dorsally from the propodeum, extends from just ventral of the metapleural arm to the metacoxal articulation and passes anteroventral to the propodeal spiracle.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000609",
+    "Preferred.Term": "metapleural carina",
+    "ID": "HAO_0000609"
+  },
+  {
+    "title": "Metapostnotum",
+    "definition": "The area that is located anterior to the antecostal sulcus of the first abdominal tergum.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001877",
+    "Preferred.Term": "metapostnotum",
+    "ID": "HAO_0001877"
+  },
+  {
+    "title": "Mouthparts",
+    "definition": "The anatomical cluster that is composed of the labrum, epipharyngeal wall, hypopharyngeal wall (including the sitophore), mandibles, maxillae, labium and conjunctivae connecting them.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000639",
+    "Preferred.Term": "mouthparts",
+    "ID": "HAO_0000639"
+  },
+  {
+    "title": "Netrion",
+    "definition": "The area that is located posteroventrally on the pronotum and corresponds to the site of origin of first flexor of the fore wing muscle.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000644",
+    "Preferred.Term": "netrion",
+    "ID": "HAO_0000644"
+  },
+  {
+    "title": "Netrion sulcus",
+    "definition": "The sulcus that  anteriorly delimits the netrion.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000646",
+    "Preferred.Term": "netrion sulcus",
+    "ID": "HAO_0000646"
+  },
+  {
+    "title": "Occiput",
+    "definition": "The area that is concave and surrounds the postocciput.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000658",
+    "Preferred.Term": "occiput",
+    "ID": "HAO_0000658"
+  },
+  {
+    "title": "Ocellus",
+    "definition": "The multi-tissue structure that is located on the top of the head, composed of the corneal lens, pigment cell, rhabdoms and synaptic plexus.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000661",
+    "Preferred.Term": "ocellus",
+    "ID": "HAO_0000661"
+  },
+  {
+    "title": "Orbital furrow",
+    "definition": "The impression that arises laterally from the antennal rim and extends along the inner margin of the compound eye.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001598",
+    "Preferred.Term": "orbital furrow",
+    "ID": "HAO_0001598"
+  },
+  {
+    "title": "Paracoxal sulcus",
+    "definition": "The sulcus that corresponds to the paracoxal ridge.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000685",
+    "Preferred.Term": "paracoxal sulcus",
+    "ID": "HAO_0000685"
+  },
+  {
+    "title": "Preocellar pit",
+    "definition": "The pit that is located on upper face adjacent the anterior margin of the median ocellus and corresponds internally to a conical apodeme and not the tentorium.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000808",
+    "Preferred.Term": "preocellar pit",
+    "ID": "HAO_0000808"
+  },
+  {
+    "title": "Procoxa",
+    "definition": "The coxa that is located on the fore leg.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001122",
+    "Preferred.Term": "procoxa",
+    "ID": "HAO_0001122"
+  },
+  {
+    "title": "Propleuron",
+    "definition": "The pleuron that is articulated with the fore leg, connected dorsolaterally (anterolaterally) with the pronotum and ventrally (posteriorly) with the prosternum.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000862",
+    "Preferred.Term": "propleuron",
+    "ID": "HAO_0000862"
+  },
+  {
+    "title": "Propodeal spiracle",
+    "definition": "The abdominal spiracle that is the anteriormost in the body.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000329",
+    "Preferred.Term": "propodeal spiracle",
+    "ID": "HAO_0000329"
+  },
+  {
+    "title": "Propodeum",
+    "definition": "The area of the metapectal-propodeal complex that is located posterior to the metapleural carina.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001249",
+    "Preferred.Term": "propodeum",
+    "ID": "HAO_0001249"
+  },
+  {
+    "title": "Radicle",
+    "definition": "The area that is located proximally on the scape, is limited distally by a constriction and bears proximally the basal knob.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000889",
+    "Preferred.Term": "radicle",
+    "ID": "HAO_0000889"
+  },
+  {
+    "title": "Scape",
+    "definition": "The antennal segment that is proximal to the pedicel and is connected to the head via the radicle.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000908",
+    "Preferred.Term": "scape",
+    "ID": "HAO_0000908"
+  },
+  {
+    "title": "Sclerite",
+    "definition": "The area of the integument that is strongly sclerotised, with thick exocuticle and is surrounded by conjunctivae.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000909",
+    "Preferred.Term": "sclerite",
+    "ID": "HAO_0000909"
+  },
+  {
+    "title": "Sculpture",
+    "definition": "The area that is located on the sclerite and that is composed of repetitive anatomical structures.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000913",
+    "Preferred.Term": "sculpture",
+    "ID": "HAO_0000913"
+  },
+  {
+    "title": "Speculum",
+    "definition": "The area that is located dorsally on the mesopleuron, is delimited posteriorly by the mesepimeral ridge and corresponds to the site of origin of the dorsal mesopleuro-mesofurcal muscle.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000944",
+    "Preferred.Term": "speculum",
+    "ID": "HAO_0000944"
+  },
+  {
+    "title": "Spiracle",
+    "definition": "The anatomical cluster that is composed of the distal end of the trachea and the margin of the sclerite or conjunctiva surrounding the spiracular opening.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000950",
+    "Preferred.Term": "spiracle",
+    "ID": "HAO_0000950"
+  },
+  {
+    "title": "Tegula",
+    "definition": "The sclerite that is located laterally of the preaxilla and obscures the anterior mesonoto-first axillary articulation and the mesopleuro-second axillary sclerite joints.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0000993",
+    "Preferred.Term": "tegula",
+    "ID": "HAO_0000993"
+  },
+  {
+    "title": "Vertex",
+    "definition": "The area that is delimited by the intersection of the margin of the compound eyes, the interorbital plane, and the anatomical line that is tangential to the point on the margin of the anterior ocellus which defines the minimum distance between the anterior ocellus and the oral foramen.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001077",
+    "Preferred.Term": "vertex",
+    "ID": "HAO_0001077"
+  },
+  {
+    "title": "Wing",
+    "definition": "The area that is located in between the notum and the pleuron and is composed of the wing base and wing blade.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001089",
+    "Preferred.Term": "wing",
+    "ID": "HAO_0001089"
+  },
+  {
+    "title": "Wing base",
+    "definition": "The anatomical cluster that is composed of the pteralia, humeral complex, tegula and axillary cord.",
+    "URI": "http://purl.obolibrary.org/obo/HAO_0001090",
+    "Preferred.Term": "wing base",
+    "ID": "HAO_0001090"
+  }
+]
