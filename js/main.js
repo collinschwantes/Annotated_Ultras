@@ -76,6 +76,8 @@ $(function(){
   $('.bodypart').on('click', function(e){
 
     var $thisPart = $(this);
+    
+    console.log($thisPart)
 
     toggleOpacity($thisPart);
 
@@ -83,6 +85,23 @@ $(function(){
     exports.glossary.update();
 
   });
+
+  /*
+  Drop button click handler
+  */
+   $('.drop-button').on('click', function(e){
+
+    var $thisPart = $(this)
+    console.log($thisPart.attr('id'));
+
+    var $thisSVG = $('#'+$thisPart.attr('id')+'.bodypart');
+    console.log($thisSVG)
+    $thisSVG.removeClass('opaque');
+
+    exports.glossary.toggleDefinition($thisSVG);
+    exports.glossary.update();
+
+  });  
 
   /*
     looks for resize events on the window and resizes the 
