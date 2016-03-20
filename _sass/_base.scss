@@ -99,15 +99,20 @@ body {
 }
 
 .drop-button{
+  border-radius: 1px;
   border-width: 0px;
   background: none;
-  color: white;
-  opacity: 0;
+  vertical-align: top;
+  padding: 0 2 2 2px;
+  line-height: 90%;
+  color: red;
+  opacity: .3;
 }
 
 .drop-button:hover {
   background: #e34a33;
   transition-delay:  .2s;
   border-radius: 20px;
+  color: white;
   opacity: 1;
 }
