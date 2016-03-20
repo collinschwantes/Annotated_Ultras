@@ -21,7 +21,7 @@ body {
 
 .controls {
   position: absolute;
-  top: 10px;
+  top: 60px;
   left: calc(2%);
 }
 
@@ -71,8 +71,8 @@ body {
   min-height: 200px;
   max-height: 95%;
   position: absolute;
-  right: 10;
-  top: 10;
+  right: 10px;
+  top: 20px;
   width: 220px;
   border-radius: 7px;
   overflow: auto;
@@ -99,20 +99,23 @@ body {
 }
 
 .drop-button{
-  border-radius: 1px;
-  border-width: 0px;
+  margin: 0px;
+  border-radius: 20px;
+  border-style: dotted;
+  border-width: 1px;
   background: none;
   vertical-align: top;
   padding: 0 2 2 2px;
   line-height: 90%;
   color: red;
-  opacity: .3;
+  opacity: .5;
 }
 
 .drop-button:hover {
   background: #e34a33;
   transition-delay:  .2s;
   border-radius: 20px;
+  border-width: 0px;
   color: white;
   opacity: 1;
 }
