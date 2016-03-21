@@ -5,7 +5,7 @@
 
 Follow these instructions to create an annotated image in [inkscape](https://inkscape.org/en/) and the corresponding [jekyll site](https://jekyllrb.com/). 
 
-1.  [Fork](https://help.github.com/articles/fork-a-repo/) this project to create a copy for your github account or 
+1.  [Fork](https://github.com/collinschwantes/Annotated_Ultras/blob/master/Inkscape_instructions.md#fork-destination-box) this project to create a copy for your github account or 
 [Download](https://github.com/collinschwantes/Annotated_Ultras/archive/master.zip) the repository and transfer the files to a folder with an appropriate name
 2.  Move the image you will annotate into the **images** folder and delete the old file. 
 3.  Open the **_data** folder and then open the **hao_terms.json** file
