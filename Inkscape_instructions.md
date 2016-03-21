@@ -36,5 +36,15 @@ Follow these instructions to create an annotated image in [inkscape](https://ink
 11. Change the group id to the **HAO_terms** id
     - ![xml editor changed](https://raw.githubusercontent.com/collinschwantes/Annotated_Ultras/master/Screenshot%202016-03-21%2013.07.36.png)
     - *NOTE* use `ctrl v` to paste in inkscape
-12. Give the feature the `class` "bodypart"  by entering class into the attribute name bar
-    - ![xml editor class]()
+    - click `set` to change the id
+12. Give the feature the `class` "bodypart" by entering "class" into the attribute name bar and "bodypart" into the attribute value box
+    - ![xml editor class](https://raw.githubusercontent.com/collinschwantes/Annotated_Ultras/master/Screenshot%202016-03-21%2013.23.56.png)
+    - this a good place to save
+13. Repeat steps 7-12 until all visible HAO terms have been added. 
+14. Open your SVG in a text editor (eg TextEdit) and delete the first line 
+    - delete the line selected in this image
+    - ![textedit_delete](https://raw.githubusercontent.com/collinschwantes/Annotated_Ultras/master/Screenshot%202016-03-21%2013.31.42.png)
+15. Copy the remaining text and paste it into the file `svg.html` that lives in the **_includes** folder 
+    - You can use TextEdit for this as well
+    - If there is already text in the `svg.html` file, replace it with the new svg text
+16. Upload the folder to the server. Pat yourself on the back ![done](http://i3.kym-cdn.com/photos/images/facebook/000/011/296/success_baby.jpg)
