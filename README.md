@@ -63,5 +63,5 @@ Follow these instructions to create an annotated image in [inkscape](https://ink
     - You can use TextEdit for this as well
     - If there is already text in the `svg.html` file, replace it with the new svg text
 16. Upload the `_site` folder to a server or create a `gh-pages` branch that contains the full project. Pat yourself on the back.
-    - If you have questions about generatng the _site folder, see the [Running the site](#running-the-site) and the documentation for [jekyll](https://jekyllrb.com/docs/home/)
+    - If you have questions about generatng the _site folder, see [running the site](#running-the-site) and the documentation for [jekyll](https://jekyllrb.com/docs/home/)
     - If you create a gh-pages branch, be sure to change the urls in the index.html file to site.github.url
