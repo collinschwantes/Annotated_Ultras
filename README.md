@@ -62,4 +62,5 @@ Follow these instructions to create an annotated image in [inkscape](https://ink
 15. Copy the remaining text and paste it into the file `svg.html` that lives in the **_includes** folder 
     - You can use TextEdit for this as well
     - If there is already text in the `svg.html` file, replace it with the new svg text
-16. Upload the folder to the server or create a `gh-pages` branch. Pat yourself on the back.
+16. Upload the `_site` folder to a server or create a `gh-pages` branch that contains the full project. Pat yourself on the back.
+    - If you have questions about generatng the _site folder, see the [above](# Running the site)
