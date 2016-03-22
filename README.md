@@ -13,6 +13,8 @@ To run the site make sure that jekyll is installed
 `which -a jekyll` should return a ruby shim path (not a blank)
 and/or running `jekyll` returns a list of options
 
+Navigate to the folder in the commandline `cd path/to/folder` 
+
 After that, `jekyll serve` should boot up the site at localhost:4000
 
 If that doesn't work. Check out the instructions for installing jekyll [here](https://jekyllrb.com/docs/installation/) 
