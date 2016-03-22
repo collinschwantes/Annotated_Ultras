@@ -1,4 +1,4 @@
-##Instructions for Interactive Annotation
+##Instructions for creating a new Interactive Annotated Image
 #####Collin Schwantes
 03/21/16
 
