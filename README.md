@@ -13,7 +13,7 @@ and/or running `jekyll` returns a list of options
 
 After that, `jekyll serve` should boot up the site at localhost:4000
 
-##Instructions for creating your own Interactive Annotation
+##Instructions for creating a new Interactive Annotated Image
 03/21/16
 
 
@@ -62,4 +62,4 @@ Follow these instructions to create an annotated image in [inkscape](https://ink
 15. Copy the remaining text and paste it into the file `svg.html` that lives in the **_includes** folder 
     - You can use TextEdit for this as well
     - If there is already text in the `svg.html` file, replace it with the new svg text
-16. Upload the folder to the server. Pat yourself on the back.
+16. Upload the folder to the server or create a `gh-pages` branch. Pat yourself on the back.
