@@ -5,7 +5,7 @@ Use the search bar to look for specific features or just click around.
 
 ## Running the site
 
-This site is powered by [jekyll](https://jekyllrb.com/). 
+This site is built with [jekyll](https://jekyllrb.com/). 
 
 To run the site make sure that jekyll is installed 
 `gem install jekyll`
@@ -15,11 +15,11 @@ and/or running `jekyll` returns a list of options
 
 After that, `jekyll serve` should boot up the site at localhost:4000
 
-Check out the instructions [here](https://jekyllrb.com/docs/installation/) 
-    -if you don't have rubygems installed might need to install :
-        - [Homebrew](http://brew.sh/)
-        - [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-        - [Rubygems](https://rubygems.org/pages/download)
+If that doesn't work. Check out the instructions for installing jekyll [here](https://jekyllrb.com/docs/installation/) 
+- If you don't have rubygems installed you might need to install the following:
+    -  [Homebrew](http://brew.sh/)
+    -  [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+    -  [Rubygems](https://rubygems.org/pages/download)
 
 ##Instructions for creating a new Interactive Annotated Image
 03/21/16
